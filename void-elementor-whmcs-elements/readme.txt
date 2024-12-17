@@ -1,11 +1,11 @@
 === Void Elementor WHMCS Elements For Elementor Page Builder ===
-Contributors: voidcoders, voidthemes
+Contributors: innovs, voidcoders, theinnovs
 Tags: page-builder, elementor, whmcs, whmcs-bridge, pricing table, widget, elementor add on, live domain search, domain search, ajax domain search, whmcs plugin, domain pricing table
 Donate link: https://www.paypal.me/voidcoder
 Requires at least: 4.4
 Requires PHP: 5.6
-Tested up to: 6.4.3
-Stable tag: 2.0.1
+Tested up to: 6.7.1
+Stable tag: 2.0.1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -29,7 +29,7 @@ For our other elementor & WP works visit : [voidCoders](https://voidcoders.com).
 For updates follow us on : [Facebook](https://www.facebook.com/voidcoders).
 
 
-[Elementor WHMCS Elements Pro](https://voidcoders.com/product/elementor-whmcs-elements-pro/).
+[Elementor WHMCS Elements Pro](https://theinnovs.com/downloads/elementor-whmcs-elements-pro/).
 Pro Version Features: 
 
 * All of the free features +
@@ -47,14 +47,14 @@ Video Preview
 [Get Hosting WordPress theme with WHMCS Elements Pro included](https://voidcoders.com/product/hostdaddy-responsive-whmcs-hosting-wordpress-theme/).
 
 
-What Does This plugin give you?
+What does this plugin provide you?
 
 1. Ajax domain search with limited style options
 2. Use WHMCS pricing directly on your wp site
 3. Use Knowledge base form on site so people can search that
-4. More features are available on our [Elementor WHMCS Elements Pro](https://voidcoders.com/product/elementor-whmcs-elements-pro/) version of the plugin, such as : More style for pricing tables, more style control, domain pricing table from whmcs live. 
+4. More features are available on our [Elementor WHMCS Elements Pro](https://theinnovs.com/downloads/elementor-whmcs-elements-pro/) version of the plugin, such as : More style for pricing tables, more style control, domain pricing table from whmcs live. 
 
-Need more? [Checkout Elementor WHMCS Elements Pro](https://voidcoders.com/product/elementor-whmcs-elements-pro/).
+Need more? [Checkout Elementor WHMCS Elements Pro](https://theinnovs.com/downloads/elementor-whmcs-elements-pro/).
 
 
 Note: This plugin is an addon of Elementor Page Builder (https://wordpress.org/plugins/elementor/) and will only work with Elementor Page Builder installed. And your elementor should be up to date to latest version
@@ -86,6 +86,8 @@ The Plugin's domain search depends on api call to external free service provided
 
 
 == Changelog ==
+= 2.0.1.1 =
+* Fix: Compatibility with latest WordPress version
 = 2.0.1 =
 * Fix: Compatibility with latest Elementor and WordPress versions
 = 2.0 =

@@ -2,10 +2,10 @@
 /**
  * Plugin Name: Elementor WHMCS Elements
  * Description: Adds Verious Widgets such as Live Domain Searcher, Pricing Table, Knowledge Base in Elementor for being used with your WHMCS or WHMCS Bridge Plugin for Hosting Website.
- * Version:     2.0.1
- * Author:      voidCoders, innovs
- * Author URI:  http://voidcoders.com
- * Plugin URI:  http://voidcoders.com/product/elementor-whmcs-elements/
+ * Version:     2.0.1.1
+ * Author:      TheInnovs
+ * Author URI:  https://theinnovs.com
+ * Plugin URI:  https://wordpress.org/plugins/void-elementor-whmcs-elements/
  * Text Domain: void_ewhmcse
  * Elementor tested up to: 3.5
  * Elementor Pro tested up to: 3.5
@@ -155,7 +155,7 @@ function void_ewhmcse_display_admin_notice_pro() {
       $dont_disturb = esc_url( get_admin_url() . '?spare_me_ewhmcsepro=1' );
       $never_show_again = esc_url( get_admin_url() . '?never_show_again_ewhmcsepro=1' );
         $plugin_info = get_plugin_data( __FILE__ , true, true );       
-        $prourl = esc_url( 'https://voidcoders.com/product/elementor-whmcs-elements-pro/' );
+        $prourl = esc_url( 'https://theinnovs.com/downloads/elementor-whmcs-elements-pro/' );
         $logo_url = esc_url( plugins_url( 'assets/icon-128x128.png', __FILE__ ) );
         printf(__('<div style="position:relative;" class="void-whmcs-review wrap"><a style="position: absolute; right: 5px; top: 0; color: #FFF;" href="%s">X</a><div><img src="%s" /></div><div class="void-whmcs-review-text">Thank you for using <b> %s</b>. If you would like to have more features and integration with the Elementor Pro\'s pricing table you can grab the <b>Pro</b> version for only <em>16$</em> now! Hurry up before the price goes up!!<div class="void-whmcs-grab-btn"><a href="%s" class="btn-whmcs" target=
             "_blank">Grab Now</a><a href="%s" class="void-whmcs-review-done"> Never show again</a></div></div></div>', $plugin_info['TextDomain']),$dont_disturb, $logo_url, $plugin_info['Name'], $prourl, $never_show_again );
@@ -257,7 +257,7 @@ function void_ewhmcse_goPro(){ ?>
     </div>
     <div class="table-cell enterprise">
       <h3><?php esc_html_e('Pro ( 19$ (Lifetime*))','void_ewhmcse') ?></h3>
-      <a href="<?php echo esc_url('https://voidcoders.com/product/elementor-whmcs-elements-pro/') ?>" class="btn" target="_blank">Get Now</a>
+      <a href="<?php echo esc_url('https://theinnovs.com/downloads/elementor-whmcs-elements-pro/') ?>" class="btn" target="_blank">Get Now</a>
     </div>
     <div class="table-cell cell-feature"><?php esc_html_e('Domain Search WHMCS','void_ewhmcse') ?></div>
     <div class="table-cell">
