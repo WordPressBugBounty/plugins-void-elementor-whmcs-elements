@@ -1,11 +1,11 @@
-=== Void Elementor WHMCS Elements For Elementor Page Builder ===
+=== Elementor WHMCS Elements For Elementor Page Builder ===
 Contributors: innovs, voidcoders, theinnovs
 Tags: page-builder, elementor, whmcs, whmcs-bridge, pricing table, widget, elementor add on, live domain search, domain search, ajax domain search, whmcs plugin, domain pricing table
 Donate link: https://www.paypal.me/voidcoder
 Requires at least: 4.4
 Requires PHP: 5.6
 Tested up to: 6.7.1
-Stable tag: 2.0.1.1
+Stable tag: 2.0.1.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -23,13 +23,8 @@ This plugin adds new element / widget such as: Domain Search, Live ajax domain S
 * Pricing table with choice of your currency from WHMCS!
 * Normal pricing table.
 
-
-For more details & Demo :[VOID Elementor WHMCS Elements](https://voidcoders.com/product/elementor-whmcs-elements/).
-For our other elementor & WP works visit : [voidCoders](https://voidcoders.com).
-For updates follow us on : [Facebook](https://www.facebook.com/voidcoders).
-
-
 [Elementor WHMCS Elements Pro](https://theinnovs.com/downloads/elementor-whmcs-elements-pro/).
+
 Pro Version Features: 
 
 * All of the free features +
@@ -86,6 +81,8 @@ The Plugin's domain search depends on api call to external free service provided
 
 
 == Changelog ==
+= 2.0.1.2 =
+* Fix: Compatibility with the latest version of Elementor Pro
 = 2.0.1.1 =
 * Fix: Compatibility with latest WordPress version
 = 2.0.1 =

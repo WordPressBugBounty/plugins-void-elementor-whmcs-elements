@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Elementor WHMCS Elements
  * Description: Adds Verious Widgets such as Live Domain Searcher, Pricing Table, Knowledge Base in Elementor for being used with your WHMCS or WHMCS Bridge Plugin for Hosting Website.
- * Version:     2.0.1.1
+ * Version:     2.0.1.2
  * Author:      TheInnovs
  * Author URI:  https://theinnovs.com
  * Plugin URI:  https://wordpress.org/plugins/void-elementor-whmcs-elements/
@@ -216,10 +216,10 @@ function void_ewhmcse_func(){ ?>
 <div class="wrap about-wrap">
   
   <div class="about-text" style=" margin: 15px 2px; ">
-    <?php _e('<h4 style=" display: inline; ">Shaping the void~</h4> <a href="http://voidcoders.com" target="_blank">voidcoders</a><br><br>We are voidcoders and we create WordPress goods & WEB Apps & <span style=" color: #2196F3; font-weight: 600; ">Custom Script! </span>','void_ewhmcse' ); ?>
+    <?php _e('<h4 style=" display: inline; ">TheInnovs</h4> <a href="http://theinnovs.com" target="_blank">TheInnovs</a><br><br>We are TheInnovs Team and we create WordPress goods & WEB Apps & <span style=" color: #2196F3; font-weight: 600; ">Custom Script! </span>','void_ewhmcse' ); ?>
   </div>
   
-  <h4><?php _e( 'Void Elementor WHMCS Elements Preview' ,'void_ewhmcse'); ?></h4>
+  <h4><?php _e( 'Elementor WHMCS Elements Preview' ,'void_ewhmcse'); ?></h4>
 
   <?php echo wp_oembed_get('https://www.youtube.com/watch?v=IFHOMMMowbA',array('width'=>'700')); ?>
 
@@ -230,7 +230,7 @@ function void_ewhmcse_func(){ ?>
       <h4><?php _e( 'Check Our Exciting Products & Offeres Bellow' ,'void_ewhmcse'); ?></h4>
     </div>
 
-        <object type="text/html" data="//voidcoders.com/product" style=" height: 1500px; width: -webkit-fill-available; "> </object>
+        <object type="text/html" data="//theinnovs.com/downloads" style=" height: 1500px; width: -webkit-fill-available; "> </object>
 
   </div>
 
@@ -251,12 +251,13 @@ function void_ewhmcse_goPro(){ ?>
 
 <div class="void-ewhmcse-table">
     <div class="table">
-    <div class="table-cell"><img style="width: 60px;" src="https://www.gravatar.com/avatar/17f3b45e8d9cb5bca165bf2f61ff8e0d"><br>voidCoders</div>
+    <div class="table-cell"><img style="width: 60px;" src="https://theinnovs.com/wp-content/uploads/2019/10/TheInnovs-icon-Logo-250x250.png"><br>TheInnovs</div>
     <div class="table-cell plattform">
       <h3><?php esc_html_e('Free','void_ewhmcse') ?></h3>
     </div>
     <div class="table-cell enterprise">
-      <h3><?php esc_html_e('Pro ( 19$ (Lifetime*))','void_ewhmcse') ?></h3>
+      <h3><?php esc_html_e('Pro ( Starts from 19.99$ )','void_ewhmcse') ?></h3>
+      <h4><?php esc_html_e('12.12 sale discount is still active! Use coupon "Twelve12" (Enjoy 20% discount!)','void_ewhmcse') ?></h3>
       <a href="<?php echo esc_url('https://theinnovs.com/downloads/elementor-whmcs-elements-pro/') ?>" class="btn" target="_blank">Get Now</a>
     </div>
     <div class="table-cell cell-feature"><?php esc_html_e('Domain Search WHMCS','void_ewhmcse') ?></div>
@@ -376,10 +377,6 @@ function void_ewhmcse_goPro(){ ?>
   </div>
 </div>
 <div style="text-align: center;">
-
-<h3 style="color: green;">**Buy Our Featured Hosting WordPress Theme & get WHMCS Elements Pro For Free**</h3>
-<a href="https://voidcoders.com/product/hostdaddy-responsive-whmcs-hosting-wordpress-theme/" target="_blank">
-<img src="https://voidcoders.com/wp-content/uploads/edd/2018/04/01_preview.png"></a>
 </div>
 
 <?php }
